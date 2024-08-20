@@ -8,12 +8,173 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200;400;600;700&display=swap" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 </head>
 
-<body class="" x-data="{ open: false }">
-  <main class="flex min-h-screen flex-col items-center justify-between">
-    <div>Hello world!</div>
+<body class="bg-dark" x-data="{ open: false }">
+    <header class="absolute inset-0 bottom-auto z-50">
+        <div class="absolute inset-0 bg-gradient-to-b from-ocean  bg-opacity-70 to-transparent"></div>
+        <div class="container py-4 px-4 lg:px-24 relative z-10">
+            <div class="max-w-sm w-2/3">
+                <img src="logo.png" alt="Sillman Thomas Logo" class="w-full max-w-[140px] lg:max-w-[200px]" />
+            </div>
+            <nav class="flex-1">
+
+            </nav>
+        </div>
+    </header>
+  <main class="">
+    <section class="relative h-screen max-h-[900px]">
+        <div class="absolute inset-0">
+            <img src="bg.jpg" alt="Background Image" class="w-full h-full object-cover" />
+        </div>
+        <div class="py-[88px] relative z-10 h-full">
+            <div class="flex flex-col justify-center h-full">
+                <div class="px-5 lg:px-12 max-w-xl mx-auto text-center space-y-6">
+            <h1 class="font-sans text-white text-center text-4xl font-thin xl:text-6xl scroll-reveal">Building teams for a <span class="italic ">resilient</span>,<span class="italic ">nature positive</span> economy.</h1>
+                <a href="#" class=" inline-block text-base bg-gold hover:bg-primary text-white tracking-wider py-2 px-6 rounded-full uppercase xl:text-xl scroll-reveal-button">Work with us</a>
+            </div>
+
+            </div>
+        </div>
+       
+    </section>
+    <section class=" bg-[#f9efe1] py-[88px]">
+        <div class="mx-auto max-w-5xl px-6 font-thin text-xl leading-relaxed">
+            <div class="relative mb-12 scroll-reveal">
+                <div class="text-[128px] absolute italic font-semibold top-1/2 transform -translate-y-1/2 lg:-translate-x-16 opacity-20 text-primary">01</div>
+                <h4 class="text-3xl xl:text-6xl font-serif text-dark font-regular relative z-10">Why</h4>
+            </div><div class="scroll-reveal">
+            <p>Everything we value and rely on in life depends on nature: a stable climate, food systems, livelihoods, education, health and wellbeing. With over 50% lf of the global GDP $44 trillion threatened by nature loss, protecting and regenerating nature is the single most effective thing we can do to address climate change.  A ‘nature positive economy’ means reversing biodiversity loss by 2030 and has the potential to unlock $10 trillion of business opportunities across food, infrastructure and energy. This is why we build teams who...
+            </p>
+            <ul class="list-disc list-inside">
+                <li>Mobilise nature-based investments</li>
+                <li>Integrate nature into business models and strategy</li>
+                <li>Prioritise nature in policymaking and regulation</li>
+            </ul>
+        </div>
+        </div>
+
+    </section>
+    <section class=" bg-primary text-white py-[88px]">
+        <div class="mx-auto max-w-5xl px-6 font-thin text-xl leading-relaxed">
+            <div class="relative mb-12 scroll-reveal">
+                <div class="text-[128px] absolute italic font-semibold top-1/2 transform -translate-y-1/2 lg:-translate-x-16 opacity-20 text-white">02</div>
+                <h4 class="text-3xl xl:text-6xl font-serif text-dark font-regular relative z-10">Our Story </h4>
+            </div>
+            <div class="lg:columns-2 gap-4	space-y-6 scroll-reveal">
+            <p>Amid the rapidly intensifying challenges of climate change and environmental degradation, our founder Hannah Wylie, recognised the need for a talent acquisition firm to drive systemic change. </p>
+            <p>By building specialised nature-based talent pools across finance, business, tech, policy, and law, we aim to be that catalyst.</p>
+            <p>With a background in financial risk and regenerative agriculture, our founder understood that investors and leaders with expertise in forestry, agriculture, marine science, conservation and STEM are crucial for mobilising capital and unlocking NbS (Nature-based Solutions) investment opportunities across natural capital, infrastructure, and energy.</p>
+            <p>In response, ST was established in 2015 to meet this need. Our team, with combined experience in finance, oceans, agriculture, forestry, extractives, and emerging markets, excel in delivering on challenging global mandates. We build teams that achieve risk, return and impact.</p>
+        </div>
+        <div class="scroll-reveal py-4">
+            <img src="executive-search-bg.jpg" class="w-full aspect-[2/1] object-cover" alt="Executive Search Background" />
+        </div>
+        </div>
+
+    </section>
+
+    <section class=" bg-gold text-white py-[88px]">
+        <div class="mx-auto max-w-5xl px-6 font-thin text-xl leading-relaxed">
+            <div class="relative mb-12 scroll-reveal">
+                <div class="text-[128px] absolute italic font-semibold top-1/2 transform -translate-y-1/2 lg:-translate-x-16 opacity-20 text-white">03</div>
+                <h4 class="text-3xl xl:text-6xl font-serif text-white font-regular relative z-10">How we work </h4>
+            </div>
+            <div class="flex flex-col">
+                <div class="lg:w-1/2 lg:pr-12 scroll-reveal">
+                    <h5 class="text-2xl font-serif text-white font-semibold">Search</h5>
+                    <p>Our team of experts work with clients to identify and attract the best talent in the market. We have a global network of professionals across finance, business, tech, policy, and law, who are passionate about nature and sustainability. We work with clients to build teams that deliver on their strategic objectives.</p>
+                </div>
+                <div class="lg:w-1/2 justify-end self-end my-8 lg:-my-12 lg:pl-12 scroll-reveal">
+                    <h5 class="text-2xl font-serif text-white font-semibold">Interim</h5>
+                    <p>Our interim team provides clients with access to experienced professionals who can deliver on short-term projects. We have a network of professionals who can provide clients with the expertise they need to deliver on their strategic objectives.</p>
+                </div>
+                <div class="lg:w-1/2 lg:pr-12 scroll-reveal">
+                    <h5 class="text-2xl font-serif text-white font-semibold">Advisory</h5>
+                    <p>Our advisory team provides clients with access to experienced professionals who can provide strategic advice on a range of issues. We have a network of professionals who can provide clients with the expertise they need to deliver on their strategic objectives.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class=" bg-dark text-white py-[88px]">
+        <div class="mx-auto max-w-5xl px-6 font-thin text-xl leading-relaxed">
+            <div class="relative mb-12 scroll-reveal">
+                <div class="text-[128px] absolute italic font-semibold top-1/2 transform -translate-y-1/2 lg:-translate-x-16 opacity-20 text-white">04</div>
+                <h4 class="text-3xl xl:text-6xl font-serif text-white font-regular relative z-10">What sets us apart </h4>
+            </div>
+            <div class="grid grid-cols-4 gap-12 leading-tight sm:leading-relaxed">
+                <div class="col-span-4  lg:col-span-2 scroll-reveal">
+                    <div class="relative rounded-lg overflow-hidden group cursor-pointer">
+                        <img src="solutions.jpg" alt="" class="w-full aspect-square sm:aspect-auto" />
+                        <h5 class="text-3xl font-serif text-white font-regular absolute p-4 pt-12 inset-0 top-auto z-10 bg-gradient-to-b from-transparent to-dark group-hover:opacity-0 opacity-100  transition flex items-center gap-4">Passion
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+                        </h5>
+                        <div class="absolute inset-0 group-hover:opacity-100 opacity-0 bg-black bg-opacity-60 bg-blend-multiply p-4 transition">
+                            <p class="">Our commitment to people and the planet drives us to go further for our clients, delivering on challenging and complex international hiring ambitions. Our optimism and drive keep us focused on evolving and continually learning, ensuring we stay ahead of the curve.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-4  lg:col-span-2 scroll-reveal">
+                    <div class="relative rounded-lg overflow-hidden group cursor-pointer">
+                        <img src="inclusive-business.jpg" alt="" class="w-full aspect-square sm:aspect-auto" />
+                        <h5 class="text-3xl font-serif text-white font-regular absolute p-4 pt-12 inset-0 top-auto z-10 bg-gradient-to-b from-transparent to-dark group-hover:opacity-0 opacity-100  transition flex items-center gap-4">Team before Self
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+                        </h5>
+                        <div class="absolute inset-0 group-hover:opacity-100 opacity-0 bg-black bg-opacity-60 bg-blend-multiply p-4 transition">
+                            <p class="">We believe in the power of collective action. Working as a team keeps us energized and focused. By pulling together, we achieve our clients' objectives on time and to the highest standards. Our emphasis on effective problem-solving and clear team communication ensures we maintain consistency with our clients and partners.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-4  lg:col-span-2 lg:col-start-2 scroll-reveal">
+                    <div class="relative rounded-lg overflow-hidden group cursor-pointer ">
+                        <img src="solutions-2.jpg" alt="" class="w-full aspect-square sm:aspect-auto object-cover" />
+                        <h5 class="text-3xl font-serif text-white font-regular absolute p-4 pt-12 inset-0 top-auto z-10 bg-gradient-to-b from-transparent to-dark group-hover:opacity-0 opacity-100  transition flex items-center gap-4">Responsiveness
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+                        </h5>
+                        <div class="absolute inset-0 group-hover:opacity-100 opacity-0 bg-black bg-opacity-60 bg-blend-multiply p-4 transition">
+                            <p class="">We prioritise agility and adaptability in a fast-moving world. By actively listening and addressing challenges head-on, we deliver timely and effective solutions. Our proactive approach, direct communication, and quick thinking enable us to overcome obstacles and build strong, lasting relationships.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-neutral-900 p-4 text-white font-light">
+        <div class="flex justify-between max-w-5xl mx-auto items-center">
+        <p class="">&copy; 2024 Sillman Thomas Ltd</p>
+        <div>
+            <a href="https://www.linkedin.com/company/sillman-thomas/?originalSubdomain=uk">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M20 0a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h16zM8.95 9.4H6.16v8.1h2.8V9.4zm6.84-.19c-1.32 0-2 .63-2.38 1.16l-.13.18V9.4h-2.79l.01.49V17.5h2.78v-4.52a1.52 1.52 0 0 1 1.52-1.64c.96 0 1.37.66 1.41 1.66v4.5H19v-4.64c0-2.49-1.37-3.65-3.2-3.65zM7.58 5.5C6.62 5.5 6 6.1 6 6.9c0 .73.54 1.32 1.38 1.4h.18c.97 0 1.57-.62 1.57-1.4-.01-.8-.6-1.4-1.55-1.4z"/></svg>
+        </a>
+        </div>
+    </div>
+    </footer>
+
   </main>
 </body>
-
+<script>
+    ScrollReveal().reveal('.scroll-reveal', {
+        delay: 200,
+        duration: 1400,
+        // distance: '50px',
+        origin: 'bottom',
+        reset: true
+    });
+    ScrollReveal().reveal('.scroll-reveal-button', {
+        delay: 600,
+        duration: 1000,
+        // distance: '0px',
+        origin: 'bottom',
+        reset: true
+    });
+</script>
 </html>
